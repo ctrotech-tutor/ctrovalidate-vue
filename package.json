@@ -17,26 +17,45 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --tsconfig tsconfig.build.json",
+    "build": "vite build",
     "test": "vitest run --passWithNoTests",
     "lint": "eslint .",
     "format": "prettier . --check"
+  },
+  "homepage": "https://ctrovalidate.vercel.app/api/vue",
+  "keywords": [
+    "ctrovalidate",
+    "validation",
+    "form-validation",
+    "vue",
+    "vue3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrotech-tutor/ctrovalidate-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctrotech-tutor/ctrovalidate-vue/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "ctrovalidate-core": "^1.0.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "ctrovalidate-core": "^1.0.0",
-    "vue": "^3.5.0",
-    "tsup": "^8.5.1",
-    "vitest": "^4.0.18",
-    "typescript": "^5.9.3",
-    "eslint": "^9.39.2",
     "@eslint/js": "^9.39.2",
-    "typescript-eslint": "^8.54.0",
-    "prettier": "^3.1.1",
+    "ctrovalidate-core": "^1.0.0",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^9.1.0",
-    "globals": "^17.2.0"
+    "globals": "^17.2.0",
+    "prettier": "^3.1.1",
+    "vite": "^6.0.0",
+    "vite-plugin-dts": "^4.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0",
+    "vitest": "^4.0.18",
+    "vue": "^3.5.0"
   }
 }
