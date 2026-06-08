@@ -45,7 +45,7 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^10.0.1",
     "ctrovalidate-core": "^1.0.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^9.1.0",
