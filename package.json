@@ -47,7 +47,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "ctrovalidate-core": "^1.0.0",
-    "eslint": "^9.39.2",
+    "eslint": "^10.4.1",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^17.2.0",
     "prettier": "^3.1.1",
